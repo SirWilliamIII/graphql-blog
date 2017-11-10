@@ -1,28 +1,30 @@
 {
-  "name": "graph-ql",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SirWilliamIII/graphql-blog.git"
-  },
-  "keywords": [],
-  "author": "Will Carpenter <willcarpenteriii@gmail.com> (https://willcarpenter.site)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SirWilliamIII/graphql-blog/issues"
-  },
-  "homepage": "https://github.com/SirWilliamIII/graphql-blog#readme",
-  "dependencies": {
-    "graphql": "^0.11.7"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
-  }
+    "name": "graph-ql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src --out-dir dist/ && node dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SirWilliamIII/graphql-blog.git"
+    },
+    "keywords": [],
+    "author": "Will Carpenter <willcarpenteriii@gmail.com> (https://willcarpenter.site)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SirWilliamIII/graphql-blog/issues"
+    },
+    "homepage": "https://github.com/SirWilliamIII/graphql-blog#readme",
+    "dependencies": {
+        "faker": "^4.1.0",
+        "graphql": "^0.11.7"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.6.1"
+    }
 }
